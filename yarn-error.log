@@ -1,0 +1,46 @@
+Arguments: 
+  /home/miguel/.nvm/versions/node/v12.16.1/bin/node /home/miguel/.nvm/versions/node/v12.16.1/bin/yarn
+
+PATH: 
+  /home/miguel/.vscode-server/bin/622cb03f7e070a9670c94bae1a45d78d7181fbd4/bin:/home/miguel/.zinit/polaris/bin:/home/miguel/.nvm/versions/node/v12.16.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu20.04onWindows_2004.2020.812.0_x64__79rhkp1fndgsc:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/mpgon/AppData/Roaming/nvm:/mnt/c/Program Files/nodejs:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/mpgon/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/mpgon/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/mpgon/AppData/Roaming/nvm:/mnt/c/Program Files/nodejs
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  12.16.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: getaddrinfo EAI_AGAIN registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:64:26)
+
+npm manifest: 
+  {
+    "name": "backend",
+    "version": "1.0.0",
+    "main": "src/server.js",
+    "license": "MIT",
+    "scripts": {
+      "dev": "nodemon",
+      "test": "jest"
+    },
+    "dependencies": {
+      "cors": "^2.8.5",
+      "express": "^4.17.1",
+      "uuid": "^8.3.0"
+    },
+    "devDependencies": {
+      "jest": "^25.2.6",
+      "nodemon": "^2.0.2",
+      "supertest": "^4.0.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
